@@ -3,7 +3,7 @@
 BhashaFlow 1.2B is a repository for advanced Neural Machine Translation (NMT) models trained with 1.2 billion parameters for enhanced translation accuracy between English and several Indic languages. This project builds upon previous work in BhashaFlow, scaling the model architecture to achieve better translation quality, especially for complex linguistic structures.
 
 ## Project Inspiration
-This repository is an extension of the original AI4Bharat's IndicTrans and BhashaFlow projects, aimed at furthering language accessibility for Indic languages by leveraging a more extensive model.
+This repository is an extension of the original AI4Bharat's IndicTrans project, aimed at furthering language accessibility for Indic languages by leveraging a more extensive model.
 
 ## Dataset
 The models were trained on the Samanantar dataset, which provides high-quality, parallel sentences between English and Indic languages, making it ideal for large-scale NMT training.
@@ -14,16 +14,21 @@ Each model was trained on an NVIDIA A100 GPU to accommodate the extensive parame
 ## Supported Languages
 This repository supports translations for the following language pairs:
 
-English ↔ Assamese
-English ↔ Bengali
-English ↔ Gujarati
-English ↔ Hindi
-English ↔ Kannada
-English ↔ Malayalam
-English ↔ Marathi
-English ↔ Odia
-English ↔ Panjabi
-English ↔ Telugu
+### English ↔ Indic Translations
+
+| Language Pair       | 
+|---------------------|
+| English ↔ Assamese  |                
+| English ↔ Bengali   |               
+| English ↔ Gujarati  |               
+| English ↔ Hindi     |          
+| English ↔ Kannada   |            
+| English ↔ Malayalam |            
+| English ↔ Marathi   |           
+| English ↔ Odia      |                 
+| English ↔ Panjabi   |                 
+| English ↔ Telugu    |                 
+
 
 ## Model Architecture
 Each model in BhashaFlow 1.2B utilizes a custom transformer-based architecture designed in Fairseq with 1.2 billion parameters. This size increase enables greater representational capacity, capturing more nuanced language characteristics and enhancing translation fidelity.
